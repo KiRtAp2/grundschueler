@@ -1,0 +1,161 @@
+* Načrt dela: advanced skupina
+
+Tu so zbrane teme, ki jih v idealnih razmerah planiramo obravnavati.
+Te so že topološko urejene, tako da zelo previdno pri spreminjanju vrstnega reda.
+Pri vsaki stvari tu bi se želeli še kakšno dodatno uro vaj (ali več ur), da utrdimo koncepte.
+
+** Ponovitev naučenega in uvod v nove koncepte
+- Ponovitev funkcij
+- Ponovitev tipov (~int~, ~long long~, ~char~, ~signed~ oz. ~unsigned~)
+- Ponovitev seznamov (tudi omeniš večdimenzionalne sezname)
+- Nova snov: kazalci
+  - kaj so, kako jih pišemo
+  - zakaj jih (ne) uporabljamo
+  - seznami so pravzaprav samo pointerji
+    - zato je smiselno napisati npr. ~arr+n~
+  - predvsem je pomembno, da razumejo koncept, ni pa ful kritično, da vejo, kako se implementira
+
+*** Števila v ogledalu [RTK 2001 3. sk]
+- preprosta naloga za ponovitev funkcij in modula
+- upamo, da znajo sami rešit; ko inevitably ne bodo:
+  - če imamo še čas (unlikely), rešimo na predavanju
+  - sicer jim damo za domačo nalogo, skupaj s tem, da ponovijo vse, kar so nekdaj znali
+
+*** Domača naloga: TBD
+- Mora biti neka dokaj preprosta naloga, toliko, da se spomnijo, kako se tipka
+
+** Številski sistemi in bitne operacije
+- Kratka predstavitev matematičnega koncepta različnih številskih sistemov
+- Bolj podrobna obravnava binarnega in heksadecimalnega sistema
+- Bitwise operatorji
+  - ~&~, ~|~, ~^~, ~>>~, ~<<~
+
+*** TBD
+- Neka naloga iz bitmask oz. podobnega
+- Da moraš res te stvari uporabit, in se dobro naučit
+
+*** Domača naloga: Parlament [RTK 2001 3. sk]
+- Exhaustive search, predvsem želimo pokazat, kako je ~1 << n = 2^n~
+- Še (dokaj) simpl naloga, da še malo ponovijo
+
+Tu dodatna vaja pomoje ni potrebna, ker itak tega ne bomo toliko veliko potrebovali.
+
+** Structi
+Ta predel definitivno razbijemo na več ur (2-3 + vaja)
+- osnovna struktura
+  - samo skupki spremenljivk
+- metode
+  - kako se napiše konstruktor
+  - kako se piše metode, in zakaj bi to želel narediti
+- operatorji
+  - custom operacije kot metode
+  - bo prišlo prav recimo za sortiranje custom struktur, tako da je pomoje smiselno povedat
+
+*** TBD
+- dokaj preprosta naloga, ki pokaže, da je smiselno včasih dati stvari skupaj
+- recimo da iščeš minimum neke funkcije, ki jo sestaviš iz šestih parametrov, in so vsi ti parametri podani za vse točke podatkov; odgovor pa naj bo nek sedmi parameter, ki je isto podan
+  - torej namesto milijona seznamov imajo en seznam structov
+- na drugi uri se lahko potem tudi polepša to rešitev z neko metodo
+ 
+*** Domača naloga: TBD
+- nekaj podobnega nalogi za vajo
+
+*** TBD
+- za metode
+
+*** Domača naloga: TBD
+- za metode
+
+*** TBD
+- za operatorje
+
+*** Domača naloga: TBD
+- za operatorje
+
+** Sorting
+Načrtovano 2 uri + vaja
+- Skupaj izpeljemo in napišemo nek O(n²) algoritem
+  - Prvi dve nalogi spodaj počasi vodita do selection sorta
+- Pogledamo si lahko še npr. insertion sort
+- Zdi se mi smiselno, da gremo skupaj še skozi quicksort, ni pa nujno, da ga implementiramo
+- Povemo, kako se v praksi ureja (~#include <algorithm>~)
+
+*** Tretjeuvrščeni
+- Poišči dva maksimuma
+- Uvodno, da začnejo malce misliti
+
+*** Nakupovanje sendvičev
+- Poišči /K/ najmanjših
+- Za primer /N=K/ je to (skoraj) selection sort
+- Ideja je, da naredimo skupaj
+
+*** Domača naloga: Gostiščnica
+- Uporaba sortiranja
+- Najdi modus
+- Bolj pridnim damo, da implementirajo to brez urejanja
+  - Torej, da naredijo counting sort
+
+*** TBD
+- vaja uporabe sortiranja
+
+*** Domača naloga: TBD
+- vaja uporabe sortiranja
+
+** Časovna zahtevnost
+- Povemo osnovni kocept nad big O notationom
+- Sedaj znamo razložiti, zakaj je quicksort hitrejši od našega
+- Pogledamo si neke rešitve nalog in jim določimo časovno zahtevnost
+- Povemo, kako si s tem pomagajo, da vidijo, če bo njihov algoritem dovolj hiter za rešitev naloge, še preden to rešitev spišejo
+
+Načeloma bi na tej točki bilo fino imeti primer programa (ki so ga imeli npr. za domačo nalogo), na katerem bi lahko dobili z napačnim algoritmom TLE.
+
+Pojma nimam, kakšna domača naloga bi bila topical tu. Mogoče samo neka algoritmična naloga?
+
+** Bisekcija
+- En sam problem rešujemo: kako hitro izvedeti, če je (oz. koliko je) nekega specifičnega števila v arrayu
+- Izpeljemo in implementiramo bisekcijo
+- Povemo, kako se to naredi s STL funkcijami
+
+*** TBD
+- Čisto osnovna naloga, ki od nas želi samo to, da napišemo bisekcijo
+  - t.j. /Q/-krat najdi podano število v seznamu
+
+*** Domača naloga: TBD
+- načeloma skoraj isto, ampak mogoče malo bolj zanimiva stvar
+
+* Možne teme za obdelavo
+
+** Random stvari
+- delne vsote
+- sweep-line
+
+** C++ strukture
+- depends: [[Bisekcija]], [[Časovna zahtevnost]]
+- vector
+- string
+- unordered_map
+- unordered_set
+- stack
+- queue
+- priority_queue
+
+Ta predel lahko razdelimo na vsaj dva? Načeloma za vector ipd. res ne rabiš sortiranja.
+
+** Dinamično programiranje
+- neke simpl stvari, nahrbtnik, lažje rtk naloge
+  
+** Grafi
+- kaj je graf, bfs, dfs
+- dijkstra? če mamo res veliko časa
+
+* Nabor nalog
+
+Viri: stare RTK naloge, res stare RTK naloge iz 3. skupine, hand-napisano
+Če kdo napiše novo nalogo, in ne ve kam jo dat, naj jo opiše tu, da drugi vedo, kako in kdaj jo lahko uporabijo.
+Če se najde še kakšna zanimiva naloga, ki je oz. bi lahko bila na putki, je welcome tukaj.
+
+** Oklepajski izrazi [RTK 2001 3. sk]
+- dp
+
+** Kletke [RTK 2001 3. sk]
+- dfs
