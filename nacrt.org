@@ -24,6 +24,30 @@ Pri vsaki stvari tu bi se želeli še kakšno dodatno uro vaj (ali več ur), da 
 *** Domača naloga: TBD
 - Mora biti neka dokaj preprosta naloga, toliko, da se spomnijo, kako se tipka
 
+** Decimalna števila
+Ene 2 uri? Toliko, da se naučijo uporabe, in da naredimo par primerov.
+- Kaj je to ~float~, ~double~
+- Kako se jih bere, piše, kako se dela z njimi
+- Računske napake, zakaj se jih je dobro izogibati
+
+*** TBD
+- neka dokaj preprosta naloga iz floatov, ravno toliko, da podamo primer uporabe
+  
+*** Domača naloga: Krogi, iracionalna števila in monaško mesto
+- implementacijska
+- Pitagorov izrek, uporaba floatov
+
+*** TBD
+- geometrija
+- naj bo matematično dokaj preprosta stvar; Pitagora, Tales
+
+*** Domača naloga: TBD
+- geometrija
+
+*** Dodatna naloga: Obrestno-obrestno obračunavanje
+- matematično težja
+- ni mišljena za vse, ampak za tiste, ki imajo preveč časa
+
 ** Številski sistemi in bitne operacije
 - Kratka predstavitev matematičnega koncepta različnih številskih sistemov
 - Bolj podrobna obravnava binarnega in heksadecimalnega sistema
