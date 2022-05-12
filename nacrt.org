@@ -6,7 +6,7 @@ Pri vsaki stvari tu bi se želeli še kakšno dodatno uro vaj (ali več ur), da 
 
 ** Ponovitev naučenega in uvod v nove koncepte
 - Ponovitev funkcij
-- Ponovitev tipov (~int~, ~long long~, ~char~, ~signed~ oz. ~unsigned~)
+- Ponovitev tipov (~int~, ~long long~, ~char~, ~signed~ oz. ~unsigned~, ~bool~)
 - Ponovitev seznamov (tudi omeniš večdimenzionalne sezname)
 - Nova snov: kazalci
   - kaj so, kako jih pišemo
@@ -183,3 +183,11 @@ Viri: stare RTK naloge, res stare RTK naloge iz 3. skupine, hand-napisano
 
 ** Kletke [RTK 2001 3. sk]
 - dfs
+
+** Limuzine [RTK 2002 3. sk]
+- preprosta implementacijska
+- primerna za lažjo skupino
+
+** Uvrstitve tekmovalcev [RTK 2002 3. sk]
+- sorting
+- structi
